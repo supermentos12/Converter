@@ -20,5 +20,8 @@ def convertKilometerToMiles():
 #This converts euros to usd
 def convertEuroToUsd():
     euro = input("Ievadi eiro:")
-    usd = euro*1.17
-    print(usd)
+    if kms > 0:
+        usd = euro*1.17
+        print("Rezultāts ir:", usd)
+    else:
+        print("Vērtība nederīga")
