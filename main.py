@@ -25,3 +25,11 @@ def convertEuroToUsd():
         print("Rezultāts ir:", usd)
     else:
         print("Vērtība nederīga")
+
+#This converts square meters to hectares
+def convertArea():
+    square_m = int(input("Ievadi ātttālumu:"))
+    ha = square_m / 10000
+    print(square_m, "kvadrātmetri ir", ha, "kvadrātmetri")
+
+convertArea()
